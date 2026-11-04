@@ -1,0 +1,94 @@
+.advertising{
+    width: 1304px;
+    height: 394px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    .up{
+        width: 100%;
+        height: 72px;
+        padding: 16px 24px 0px;
+        .title{
+        padding: 3px 18px;
+            span{
+                font-size: 20px;
+                font-family: bold;
+                font-weight: 5px;
+            }
+            adds-button{
+                box-sizing: border-box;
+                background-color: #f2f3f5;
+                border: 0px solid lightgray;
+                padding: 8px 10px;
+                border-radius: 13px;
+                svg{
+                    width: 10px;
+                }
+            }
+        }
+        .subtitle{
+            font-size: 14px;
+            font-family: iranyekan;
+            color: #5c5c5c;
+            margin: 4px;
+            margin-right: 19px;
+        }
+    }
+    .down{
+        width: 100%;
+        height: 322px;
+        padding: 16px 0px;
+    }
+    
+      .swiper {
+        margin-right: 40px;
+        width: 96%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .swiper-botton-disabeld{
+        display: none;
+      }
+      .swiper-button-next{
+        width: 35px;
+        height: 35px;
+        background-color: aliceblue;
+        border-radius: 50%;
+        svg{
+            color: black;
+            width: 13px;
+        }
+    }
+        .swiper-button-prev{
+        width: 35px;
+        height: 35px;
+        background-color: aliceblue;
+        border-radius: 50%;
+        svg{
+            color: black;
+            width: 13px;
+        }
+      }
+}

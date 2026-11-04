@@ -1,0 +1,64 @@
+.banner {
+  width: 100%;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .banner-container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 18px;
+    .banner-item {
+      width: 25%;
+      height: 80%;
+    &.thirdBannerItem {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        .right {
+        width: 50%;
+        height: 90%;
+        a {
+          width: 100%;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        }
+        .left {
+         width: 50%;
+         height: 90%;
+          a {
+          width: 100%;
+          height: 100%;
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        }
+      }
+      a {
+        width: 100%;
+        height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 18px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,207 @@
+.amazing {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  box-sizing: border-box;
+  .amazing-container {
+    width: 85%;
+    height: 100%;
+    background-image: linear-gradient(
+      225deg,
+      rgb(210, 44, 78) 0%,
+      rgb(238, 56, 78) 100%
+    );
+    &.second-amazing {
+      background-image: linear-gradient(225deg, rgb(107, 185, 39) 0%, rgb(157, 196, 77) 100%);;
+    }
+    display: flex;
+    border-radius: 15px;
+    padding: 18px 0px;
+    box-sizing: border-box;
+    .main {
+      height: 100%;
+      width: 15%;
+      background-color: transparent;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      .smile {
+        width: 60%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        svg {
+          width: 65%;
+          height: 100%;
+        }
+      }
+      .title {
+        width: 80%;
+        height: 30%;
+        svg {
+          width: 100%;
+        }
+      }
+      .more {
+        width: 72%;
+        a {
+          all: unset;
+          cursor: pointer;
+        }
+        button {
+          all: unset;
+          width: fit-content;
+          background-color: white;
+          border-radius: 10px;
+          box-sizing: border-box;
+          padding: 8px 4px;
+          cursor: pointer;
+          font-family: IranYekan;
+          font-size: 13px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          svg {
+            width: 15%;
+            height: 6%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-disabled {
+  display: none;
+}
+
+.amazing-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  padding: 4px;
+  box-sizing: border-box;
+  .image {
+    img {
+      object-fit: cover;
+    }
+  }
+  .description {
+    font-family: IranYekan;
+    font-size: 14px;
+    width: 100%;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right;
+    margin-top: 5px;
+  }
+  .oldPrice {
+    width: 100%;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    .price {
+      font-family: IranYekan;
+      font-size: 11px;
+      text-decoration: solid gray line-through;
+      color: gray;
+    }
+    .discount {
+      padding: 2px 8px;
+      box-sizing: border-box;
+      background-color: #d32f2f;
+      border-radius: 20px;
+      font-size: 12px;
+      font-family: IranYekan;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .newPrice {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+    font-family: IranYekan;
+    font-size: 16px;
+    font-weight: bold;
+    svg {
+      width: 14px;
+      height: 14px;
+      fill: #424750;
+    }
+  }
+
+  &.border-radius-rightTB {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  &.border-radius-leftTB {
+    border-radius: 10px;
+    margin-left: 8px;
+    box-sizing: border-box;
+  }
+  &.custom {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    .arrow-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid lightgrey;
+      box-sizing: border-box;
+      svg {
+        width: 55%;
+        height: 100%;
+      }
+    }
+    .more {
+      font-family: IranYekan;
+      font-size: 13px;
+    }
+  }
+}

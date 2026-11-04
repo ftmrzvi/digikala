@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 100%;
+}
+:root {
+    --headerHeight : 170px;
+     --formwidth: 400px;
+}
+@font-face {
+    font-family: IranYekan;
+    src: url("../fonts/IRANYekanWeb.eot");
+    src: url("../fonts/IRANYekanWeb.ttf");
+    src: url("../fonts/IRANYekanWeb.woff");
+    src: url("../fonts/IRANYekanWeb.woff2");
+}
+
+::-webkit-scrollbar {
+    background-color: #F0F0F1;
+    width: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #C0C2C5;
+    border-radius: 25px;
+
+}

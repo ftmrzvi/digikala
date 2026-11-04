@@ -1,0 +1,14 @@
+.Advertising-1{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+      border-radius: 15px;
+      padding: 10px 0px;
+        gap: 17px;
+    img{
+        width: 314px;
+        gap: 10px;
+      border-radius: 15px;
+    }
+}
